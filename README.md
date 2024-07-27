@@ -1,5 +1,10 @@
 # Spots
 
+https://ethanhedden.github.io/se_project_spots/
+
+https://drive.google.com/file/d/1Qaylt0wKy7v93LYA9-tD3yzSd9SNiqMp/view?usp=sharing
+
+
 ## Project Description
 
 Spots is a social media platform that allows users to share and explore beautiful locations through images. Each user can create a profile, upload photos of their favorite spots, and interact with others' posts by liking them. The application aims to build a community of travel enthusiasts who can discover new places through each other's experiences.
