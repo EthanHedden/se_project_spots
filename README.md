@@ -1,21 +1,23 @@
-# Project 3: Spots
+# Spots
 
-### Overview  
+## Project Description
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+Spots is a social media platform that allows users to share and explore beautiful locations through images. Each user can create a profile, upload photos of their favorite spots, and interact with others' posts by liking them. The application aims to build a community of travel enthusiasts who can discover new places through each other's experiences.
+
+### Key Features:
+- **User Profiles:** Users can create and edit their profiles with a display picture and bio.
+- **Post Creation:** Users can upload photos, give them titles, and share them on their profile.
+- **Interaction:** Users can like posts shared by others.
+
+### Technologies Used:
+- **Frontend:** HTML5 and CSS3 for building the user interface, structure, and styling.
+
+## Plans for Improving the Project
+
+- **Commenting System:** Allow users to comment on posts to enhance interaction.
+- **Search and Explore:** Implement a search feature to help users find specific locations or users.
+- **Follow System:** Enable users to follow each other and get updates from their favorite profiles.
+- **Notifications:** Introduce a notification system to alert users of new likes, comments, and follows.
+- **Mobile Optimization:** Improve the mobile responsiveness to ensure a seamless experience across all devices.
+- **Performance Enhancements:** Optimize the application for faster loading times and better performance.
+- **Dark Mode:** Add a dark mode option for users who prefer a different visual theme.
