@@ -15,7 +15,7 @@
     flex-direction: column;
     justify-content: space-between;
     margin-left: 20px;
-
+    max-width: 420px;
 }
 
 .profile__name {
@@ -31,6 +31,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    max-width: 420px;
 }
 
 .profile__description {
@@ -46,6 +47,7 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    max-width: 420px;
 }
 
 .profile__edit-button {
