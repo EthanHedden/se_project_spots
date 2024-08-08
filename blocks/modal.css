@@ -9,7 +9,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* visibility: hidden; */
+    visibility: hidden;   
 }
 
 .modal__opened {
@@ -71,6 +71,7 @@
     background-position: center;
     border-style: none;
 }
+
 
 .modal__submit-btn {
     background-color: #212121;
