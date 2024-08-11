@@ -21,7 +21,7 @@ const profileFormElement = editProfileModal.querySelector('.modal__form');
 const cardTemplate = document.querySelector("#card-template");
 const cardsList = document.querySelector(".cards__list");
 
-function GetCardElement(data) {
+function getCardElement(data) {
     const cardElement = cardTemplate.content
     .querySelector(".card")
     .cloneNode(true);
@@ -40,11 +40,11 @@ function GetCardElement(data) {
 function openModal() {
     profileNameInput.value = profileName.textContent;
     profileDescriptionInput.value = profileDescription.textContent;
-    editProfileModal.classList.add("modal__opened");
+    editProfileModal.classList.add("modal_opened");
 };
 
 function closeModal() {
-    editProfileModal.classList.remove("modal__opened");
+    editProfileModal.classList.remove("modal_opened");
 };
 
 editPofileButton.addEventListener("click", openModal);
@@ -55,13 +55,13 @@ function handleProfileFormSubmit(evt) {
     evt.preventDefault();
     profileName.textContent = profileNameInput.value;
     profileDescription.textContent = profileDescriptionInput.value;
-    editProfileModal.classList.remove("modal__opened");;
+    closeModal();
 };
 
 profileFormElement.addEventListener('submit', handleProfileFormSubmit);
 
 for(let i = 0; i < initialCards.length; i++) {
-     const cardElement = GetCardElement(initialCards[i]);
+     const cardElement = getCardElement(initialCards[i]);
      cardsList.prepend(cardElement);
 }
 
