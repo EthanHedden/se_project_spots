@@ -77,10 +77,9 @@
             <div class="modal__container">
               <button type="submit" class="modal__close-btn">
                 <img
-                  alt="x icon"
+                  alt="X logo"
                   src="./images/X.png"
-                  class="modal__close-btn-icon"
-                />
+                  class="modal__close-btn-icon"/>
               </button>
               <h2 class="modal__title">Edit profile</h2>
               <form name="edit-profile" class="modal__form">
@@ -92,10 +91,8 @@
                     class="modal__input"
                     placeholder="Type your name"
                     minlength="2"
-                    maxlength="40"
-                    required
-                  />
-                  <span id="profile-name-input-error" class="modal__error"></span>
+                    maxlength="20"
+                    required/>
                 </label>
                 <label for="profile-description-input" class="modal__label">
                   Description
@@ -105,13 +102,8 @@
                     class="modal__input"
                     placeholder="Describe yourself"
                     minlength="2"
-                    maxlength="200"
-                    required
-                  />
-                  <span
-                    id="profile-description-input-error"
-                    class="modal__error"
-                  ></span>
+                    maxlength="150"
+                    required/>
                 </label>
                 <button type="submit" class="modal__submit-button">Save</button>
               </form>
@@ -121,10 +113,9 @@
             <div class="modal__container">
               <button type="submit" class="modal__close-btn">
                 <img
-                  alt="x icon"
+                  alt="X logo"
                   src="./images/X.png"
-                  class="modal__close-btn-icon"
-                />
+                  class="modal__close-btn-icon"/>
               </button>
               <h2 class="modal__title">New post</h2>
               <form id="add-card-form" class="modal__form" novalidate>
@@ -136,9 +127,7 @@
                     class="modal__input"
                     name="link"
                     placeholder="Paste a link to the picture"
-                    required
-                  />
-                  <span id="add-card-link-input-error" class="modal__error"></span>
+                    required/>
                 </label>
                 <label for="add-card-name-input" class="modal__label">
                   Caption
@@ -152,24 +141,20 @@
                     maxlength="30"
                     required
                   />
-                  <span id="add-card-name-input-error" class="modal__error"></span>
                 </label>
                 <button type="submit" class="modal__submit-btn">Save</button>
               </form>
             </div>
           </div>
-    
           <div class="modal" id="preview-modal">
             <div class="modal__container modal__container_type_preview">
               <button
                 type="submit"
-                class="modal__close-btn modal__close-btn_type_preview"
-              >
+                class="modal__close-btn modal__close-btn_type_preview">
                 <img
-                  alt="x icon"
+                  alt="X logo"
                   src="./images/X.png"
-                  class="modal__close-btn-icon"
-                />
+                  class="modal__close-btn-icon"/>
               </button>
               <img class="modal__image" src="" alt="" />
               <p class="modal__caption"></p>
