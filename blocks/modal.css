@@ -175,6 +175,7 @@
 
     .modal__image {
         border-radius: 4px;
+        width: 288px;
       }
 
     .modal__caption {
@@ -184,6 +185,10 @@
     .modal__close-btn_type_preview {
         right: 0px;
         top: -32px;
+      }
+
+    .modal__container_type_preview {
+        width: 288px
       }
 
 }

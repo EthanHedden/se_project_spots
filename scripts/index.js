@@ -34,6 +34,9 @@ const formModals = document.querySelectorAll(".modal");
 
 // Close Buttons
 const closeButtons = document.querySelectorAll(".modal__close-btn");
+const settings = {
+    disableButtonClass: "button_disabled",
+}
 
 // Preview Modal
 const previewModal = document.querySelector("#preview-modal");
@@ -84,6 +87,11 @@ function closeModal(modal) {
   modal.removeEventListener("mousedown", closeModalClick);
 }
 
+function disableButton(button, settings) {
+    button.disabled = true;
+    button.classList.add("settings.disabledButtonClass");
+}
+
 function closeModalClick(evt) {
     if (
       evt.target === evt.currentTarget ||
@@ -115,7 +123,7 @@ function handleAddCardSubmit(evt) {
   const cardElement = getCardElement(inputValues);
   cardsList.prepend(cardElement);
   cardForm.reset();
-  disableButton(cardSubmitButton, blank);
+  disableButton(cardSubmitButton, settings);
   closeModal(cardModal);
 }
 
