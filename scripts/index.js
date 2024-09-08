@@ -30,7 +30,7 @@ const cardTemplate = document.querySelector("#card-template");
 const cardsList = document.querySelector(".cards__list");
 
 //Form
-const formModals = document.querySelectorAll(".modal");
+const Modals = document.querySelectorAll(".modal");
 
 // Close Buttons
 const closeButtons = document.querySelectorAll(".modal__close-btn");
@@ -58,7 +58,7 @@ function getCardElement(data) {
   cardImageEl.alt = data.name;
 
   cardLikeButton.addEventListener("click", () => {
-  cardLikeButton.classList.toggle("card__like-button_liked");
+    cardLikeButton.classList.toggle("card__like-button_liked");
   });
 
   cardImageEl.addEventListener("click", () => {
@@ -101,7 +101,7 @@ function closeModalClick(evt) {
     }
   }
   
-function CloseModalEsc(evt) {
+function closeModalEsc(evt) {
     if (evt.key === "Escape") {
         const modalOpened = document.querySelector(".modal_opened");
     if (modalOpened) {
