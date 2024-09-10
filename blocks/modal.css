@@ -126,6 +126,7 @@
     max-width: 80vw;
     max-height: 80vh;
     border-radius: 8px;
+
   }
   
   .modal__caption {
@@ -143,7 +144,7 @@
 
 @media screen and (max-width: 627px) {
     .modal__container {
-        max-width: 300px;
+        max-width: 320px;
         padding: 12px;
     }
 
@@ -175,7 +176,11 @@
 
     .modal__image {
         border-radius: 4px;
-        width: 288px;
+        max-width: 288px;
+        max-height: 192px; 
+        object-fit: cover;
+        margin-left: 4px;
+        
       }
 
     .modal__caption {
@@ -188,7 +193,7 @@
       }
 
     .modal__container_type_preview {
-        width: 288px
+        width: 320px
       }
 
 }

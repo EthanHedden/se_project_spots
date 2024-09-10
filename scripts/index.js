@@ -30,7 +30,7 @@ const cardTemplate = document.querySelector("#card-template");
 const cardsList = document.querySelector(".cards__list");
 
 //Form
-const Modals = document.querySelectorAll(".modal");
+const modals = document.querySelectorAll(".modal");
 
 // Close Buttons
 const closeButtons = document.querySelectorAll(".modal__close-btn");
@@ -83,13 +83,12 @@ function openModal(modal) {
 
 function closeModal(modal) {
   modal.classList.remove("modal_opened");
-  document.removeEventListener("keydown", CloseModalEsc);
+  document.removeEventListener("keydown", closeModalEsc);
   modal.removeEventListener("mousedown", closeModalClick);
 }
 
 function disableButton(button, settings) {
     button.disabled = true;
-    button.classList.add("settings.disabledButtonClass");
 }
 
 function closeModalClick(evt) {
